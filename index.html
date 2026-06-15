@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Health Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+        <h2>Patients</h2>
+
+        <div class="patient active">
+            Jessica Taylor
+        </div>
+
+        <div class="patient">
+            Other Patients
+        </div>
+    </aside>
+
+
+    <main class="main">
+
+        <h1>Diagnosis History</h1>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Respiratory Rate</h3>
+                <p>20 bpm</p>
+            </div>
+
+            <div class="card">
+                <h3>Temperature</h3>
+                <p>98.6°F</p>
+            </div>
+
+            <div class="card">
+                <h3>Heart Rate</h3>
+                <p>78 bpm</p>
+            </div>
+
+        </div>
+
+
+        <h2>Diagnostic List</h2>
+
+        <table>
+
+            <tr>
+                <th>Problem</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>Hypertension</td>
+                <td>Under Observation</td>
+            </tr>
+
+        </table>
+
+    </main>
+
+
+    <aside class="right">
+
+        <img
+        id="profileImage"
+        src=""
+        alt="patient"
+        class="profile-img">
+
+        <div id="patientInfo"></div>
+
+    </aside>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
